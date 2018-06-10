@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import { Link, Route } from 'react-router-dom'; 
+
+import CarouselHome from './CarouselHome';
+
+// import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 // import {Link} from 'react-router-dom'; 
 
+
 class Home extends Component 
 {
+    
+
     render() 
     {
         
@@ -12,27 +21,51 @@ class Home extends Component
             <div>
                 {/*banner*/}
                 <div className="banner-w3">
-                    <div className="demo-1">            
-                        <div id="example1" className="core-slider core-slider__carousel example_1">
+                    <div className="demo-1"> 
+                        <CarouselHome />
+                        {/* <Carousel infiniteLoop>
+                            <div>
+                                <img src="./../images/logoGIIAS2018.jpg" style={{height: 800, width: '100%'}} className="img-responsive" alt />
+                                <p className="legend">Legend 1</p>
+                            </div>
+
+                            <div>
+                                <img src="./../images/Audi Q5.jpg" style={{height: 800}} className="img-responsive" alt />
+                                <p className="legend">Legend 2</p>
+                            </div>
+
+                            <div>
+                                <img src="./../images/toyotaCHRmerah.jpg" style={{width: '100%', height: 800}} className="img-responsive" alt />
+                                <p className="legend">Legend 3</p>
+                            </div>
+
+                            <div>
+                                <img src="./../images/fordFocus2018.jpg" style={{height: 800}} className="img-responsive" alt />
+                                <p className="legend">Legend 4</p>
+                            </div>
+                        </Carousel> */}
+
+                        {/* <div id="example1" className="core-slider core-slider__carousel example_1">
+                            
                             <div className="core-slider_viewport">
                                 <div className="core-slider_list">
                                     <div className="core-slider_item">
-                                        {/* <img src="images/logoGIIAS2018.jpg" style={{height: 800, width: '100%'}} className="img-responsive" alt /> */}
+                                       
                                         <img src="./../images/logoGIIAS2018.jpg" style={{height: 800, width: '100%'}} className="img-responsive" alt />
                                     </div>
 
                                     <div className="core-slider_item">
-                                        {/* <img src="images/Audi Q5.jpg" style={{height: 800}} className="img-responsive" alt /> */}
+                                        
                                         <img src="./../images/Audi Q5.jpg" style={{height: 800}} className="img-responsive" alt />
                                     </div>
                                     
                                     <div className="core-slider_item">
-                                        {/* <img src="images/toyotaCHRmerah.jpg" style={{width: '100%', height: 800}} className="img-responsive" alt /> */}
+                                       
                                         <img src="./../images/toyotaCHRmerah.jpg" style={{width: '100%', height: 800}} className="img-responsive" alt />
                                     </div>
                                     
                                     <div className="core-slider_item">
-                                        {/* <img src="images/fordFocus2018.jpg" style={{height: 800}} className="img-responsive" alt /> */}
+                                       
                                         <img src="./../images/fordFocus2018.jpg" style={{height: 800}} className="img-responsive" alt />
                                     </div>
                                 </div>
@@ -44,11 +77,11 @@ class Home extends Component
                             </div>
 
                             <div className="core-slider_control-nav" />
-                        </div>
+                        </div> */}
                     </div>
                 
-                    <link href="./../css/coreSlider.css" rel="stylesheet" type="text/css" />
-                    <script src="./../js/coreSlider.js"></script>
+                    {/* <link href="./../css/coreSlider.css" rel="stylesheet" type="text/css" />
+                    <script src="./../js/coreSlider.js"></script> */}
 			
                     {/* <script>
                         $('#example1').coreSlider(
@@ -368,4 +401,5 @@ class Home extends Component
     }
 }
 
+ 
 export default Home;

@@ -30,7 +30,7 @@ class Header extends Component
 
                             <div className="top-right">
                                 <ul>
-                                    <li><a href="profile.html">My Account</a></li>
+                                    <li><Link to="/profile">My Account</Link></li>
                                     <li><Link to="/checkout">Checkout</Link></li>
                                     {/* <li><a href="login.html">Login</a></li> */}
                                     <li><Link to ="/login">Login</Link></li>

@@ -7,6 +7,13 @@ class Product extends Component
     render() 
     {
         return (            
+                <div>
+                    <div className="banner1">
+                        <div className="container">
+                            <h3><Link to="/">Home</Link> / <span>Products</span></h3>
+                        </div>
+                    </div>
+
                     <div className="content">
                         <div className="products-agileinfo">
                             <h2 className="tittle">Mobil Baru</h2>
@@ -642,7 +649,8 @@ class Product extends Component
                                 </div>
                             </div>
                         </div>
-                    </div>       
+                    </div>
+                </div>       
                 );
     }
 }

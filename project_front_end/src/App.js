@@ -11,6 +11,8 @@ import Register from './component/Register';
 import Product from './component/Product';
 import Single from './component/Single';
 import Checkout from './component/Checkout';
+import Profile from './component/Profile';
+import DetInv from './component/DetailInvoice';
 import Footer from './component/Footer';
 
 class App extends Component 
@@ -28,6 +30,8 @@ class App extends Component
                   <Route path="/product" component={Product}/>
                   <Route path="/single" component={Single}/>
                   <Route path="/checkout" component={Checkout}/>
+                  <Route path="/profile" component={Profile}/>
+                  <Route path="/detail_invoice" component={DetInv}/>
 
                   <Footer />
               </div>
