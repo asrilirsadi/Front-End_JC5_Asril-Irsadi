@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
 
-import { Route } from 'react-router-dom'; 
+import { Link, Route } from 'react-router-dom'; 
 // import { Link, Route } from 'react-router-dom'; 
 
 import Header from './component/Header';
