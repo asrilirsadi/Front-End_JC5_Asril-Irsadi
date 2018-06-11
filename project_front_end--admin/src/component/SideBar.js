@@ -41,11 +41,12 @@ class SideBar extends Component
                                 <li><Link to="/"><i className="fa fa-link" /> <span>Dashboard</span></Link></li>
                                 {/* Produk */}
                                 <li className="treeview">
-                                    <a href="#"><i className="fa fa-link" /> <span>Produk</span>
+                                    {/* <a href="#"><i className="fa fa-link" /> <span>Produk</span> */}
+                                    <Link to="/produk_mobil_baru"><i className="fa fa-link" /> <span>Produk</span>
                                     <span className="pull-right-container">
                                         <i className="fa fa-angle-left pull-right" />
                                     </span>
-                                    </a>
+                                    </Link>
                                     <ul className="treeview-menu">
                                     <li><Link to="/produk_mobil_baru">Mobil Baru</Link></li>
                                     <li><Link to="/produk_mobil_bekas">Mobil Bekas</Link></li>

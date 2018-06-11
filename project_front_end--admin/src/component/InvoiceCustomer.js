@@ -55,7 +55,7 @@ class InvoiceCustomer extends Component
                                         <td>Rp 232.290.000</td>
                                         <td>
                                             <div className="btn-group">
-                                                <Link to="/invoice_single"><button type="button" className="btn btn-block btn-success">Lihat Detail</button></Link>
+                                                <Link to="/invoice_single_page"><button type="button" className="btn btn-block btn-success">Lihat Detail</button></Link>
                                             </div>
                                         </td>
                                         </tr>
@@ -74,7 +74,7 @@ class InvoiceCustomer extends Component
                                         <td>Rp 248.580.000</td>
                                         <td>
                                             <div className="btn-group">
-                                                <Link to="/invoice_single"><button type="button" className="btn btn-block btn-success">Lihat Detail</button></Link>
+                                                <Link to="/invoice_single_page"><button type="button" className="btn btn-block btn-success">Lihat Detail</button></Link>
                                             </div>
                                         </td>
                                         </tr>
@@ -93,7 +93,7 @@ class InvoiceCustomer extends Component
                                         <td>Rp 460.710.000</td>
                                         <td>
                                             <div className="btn-group">
-                                                <Link to="/invoice_single"><button type="button" className="btn btn-block btn-success">Lihat Detail</button></Link>
+                                                <Link to="/invoice_single_page"><button type="button" className="btn btn-block btn-success">Lihat Detail</button></Link>
                                             </div>
                                         </td>
                                         </tr>

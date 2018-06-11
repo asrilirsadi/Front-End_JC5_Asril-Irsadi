@@ -9,7 +9,6 @@ class InvoiceSingle extends Component
         return (
                 <div>
                     <div className="content-wrapper">
-                        {/* Content Header (Page header) */}
                         <section className="content-header">
                             <h1>
                             Invoice
@@ -21,15 +20,15 @@ class InvoiceSingle extends Component
                             <li className="active">Detail INV00001</li>
                             </ol>
                         </section>
+
                         <div className="pad margin no-print">
                             <div className="callout callout-info" style={{marginBottom: '0!important'}}>
                             <h4><i className="fa fa-info" /> Note:</h4>
                             This page has been enhanced for printing. Click the print button at the bottom of the invoice to test.
                             </div>
                         </div>
-                        {/* Main content */}
-                        <section className="invoice">
-                            {/* title row */}
+                        
+                        <section className="invoice">    
                             <div className="row">
                             <div className="col-xs-12">
                                 <h2 className="page-header">
@@ -37,9 +36,8 @@ class InvoiceSingle extends Component
                                 <small className="pull-right">Date: 2/10/2014</small>
                                 </h2>
                             </div>
-                            {/* /.col */}
                             </div>
-                            {/* info row */}
+                        
                             <div className="row invoice-info">
                             <div className="col-sm-4 invoice-col">
                                 From
@@ -51,7 +49,7 @@ class InvoiceSingle extends Component
                                 Email: irsadi.asril@gmail.com
                                 </address>
                             </div>
-                            {/* /.col */}
+                            
                             <div className="col-sm-4 invoice-col">
                                 To
                                 <address>
@@ -62,7 +60,7 @@ class InvoiceSingle extends Component
                                 Email: andyjohn@gmail.com
                                 </address>
                             </div>
-                            {/* /.col */}
+                            
                             <div className="col-sm-4 invoice-col">
                                 <b>Invoice INV00001</b><br />
                                 <br />
@@ -70,10 +68,9 @@ class InvoiceSingle extends Component
                                 <b>Payment Due:</b> 12/05/2014<br />
                                 <b>Account:</b> 968-34567
                             </div>
-                            {/* /.col */}
+                            
                             </div>
-                            {/* /.row */}
-                            {/* Table row */}
+                            
                             <div className="row">
                             <div className="col-xs-12 table-responsive">
                                 <table className="table table-striped">
@@ -106,11 +103,11 @@ class InvoiceSingle extends Component
                                 </tbody>
                                 </table>
                             </div>
-                            {/* /.col */}
+                            
                             </div>
-                            {/* /.row */}
+                            
                             <div className="row">
-                            {/* accepted payments column */}
+                            
                             <div className="col-xs-6">
                                 <p className="lead">Payment Methods:</p>
                                 <img src="../../dist/img/credit/visa.png" alt="Visa" />
@@ -122,7 +119,7 @@ class InvoiceSingle extends Component
                                 dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
                                 </p>
                             </div>
-                            {/* /.col */}
+                            
                             <div className="col-xs-6">
                                 <p className="lead">Amount Due 12/05/2018</p>
                                 <div className="table-responsive">
@@ -150,10 +147,9 @@ class InvoiceSingle extends Component
                                     </tbody></table>
                                 </div>
                             </div>
-                            {/* /.col */}
+                            
                             </div>
-                            {/* /.row */}
-                            {/* this row will not appear when printing */}
+                            
                             <div className="row no-print">
                             <div className="col-xs-12">
                                 <a href="invoice-print.html" target="_blank" className="btn btn-default"><i className="fa fa-print" /> Print</a>
@@ -165,7 +161,7 @@ class InvoiceSingle extends Component
                             </div>
                             </div>
                         </section>
-                        {/* /.content */}
+                        
                         <div className="clearfix" />
                     </div>
                 </div>    
