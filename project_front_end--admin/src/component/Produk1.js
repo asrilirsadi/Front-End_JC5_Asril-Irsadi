@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Produk1 extends Component 
 {
@@ -15,7 +15,7 @@ class Produk1 extends Component
                             <small>Mobil Baru</small>
                             </h1>
                             <ol class="breadcrumb">
-                            <li><a href="../../admin_dashboard.html"><i class="fa fa-dashboard"></i> Home</a></li>
+                            <li><Link to="/"><i class="fa fa-dashboard"></i> Home</Link></li>
                             <li><a href="#">Produk</a></li>
                             <li class="active">Mobil Baru</li>
                             </ol>

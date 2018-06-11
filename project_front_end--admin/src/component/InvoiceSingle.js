@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import { Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class InvoiceSingle extends Component 
 {
@@ -16,8 +16,8 @@ class InvoiceSingle extends Component
                             <small>INV00001</small>
                             </h1>
                             <ol className="breadcrumb">
-                            <li><a href="../../admin_dashboard.html"><i className="fa fa-dashboard" /> Home</a></li>
-                            <li><a href="../tables/admin_Invoice_Customer.html">Invoice Customer</a></li>
+                            <li><Link to="/"><i className="fa fa-dashboard" /> Home</Link></li>
+                            <li><Link to="/invoice_customer">Invoice Customer</Link></li>
                             <li className="active">Detail INV00001</li>
                             </ol>
                         </section>

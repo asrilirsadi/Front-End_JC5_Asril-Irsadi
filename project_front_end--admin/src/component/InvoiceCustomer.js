@@ -15,7 +15,7 @@ class InvoiceCustomer extends Component
                             Invoice Customer
                             </h1>
                             <ol className="breadcrumb">
-                            <li><a href="../../admin_dashboard.html"><i className="fa fa-dashboard" /> Home</a></li>
+                            <li><Link to="/"><i className="fa fa-dashboard" /> Home</Link></li>
                             <li className="active"><a href="#">Invoice Customer</a></li>
                             </ol>
                         </section>

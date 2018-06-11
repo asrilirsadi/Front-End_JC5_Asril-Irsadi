@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import { Link, } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 
 class Dashboard extends Component 
 {
@@ -16,7 +16,7 @@ class Dashboard extends Component
                             <small>Control panel</small>
                             </h1>
                             <ol className="breadcrumb">
-                            <li><a href="#"><i className="fa fa-dashboard" /> Home</a></li>
+                            <li><Link to="/"><i className="fa fa-dashboard" /> Home</Link></li>
                             <li className="active">Dashboard</li>
                             </ol>
                         </section>
